@@ -1,17 +1,7 @@
+This is RSWEB. An incomplete web-front end to libretroshare.
+It's intended use-case is as a local web server.
 
-
-
-./bootstrap
-
-will fetch and compile the boost.m4 and jansson submodules.
-
-It requires Mercurial (hg) to me installed for at least one library.
-
-you'll also need to compile 
-
-http://threadpool.sourceforge.net/
-
-this yourself. extract it to <tree-root>/threadpool
-
-and the default configure settings will find it on their own
+This project is (c) Alex Stapleton 2012, and is licensed
+under the Affero GPL v3. See the LICENSE file for more
+information.
 

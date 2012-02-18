@@ -1,0 +1,25 @@
+
+The
+    ./bootstrap
+script should get pull in most things automatically.
+You'll need Mercurial (hg) installed for at least one
+library.
+
+
+You also need to install a copy of this header-only
+project
+
+http://threadpool.sourceforge.net/
+
+extract it to ./threadpool
+
+The default configure.ac settings should all point to the
+right places then.
+
+Once you've got the required libraries you'll need to do
+
+cd raas/
+autoreconf -fvi
+./configure
+make
+
