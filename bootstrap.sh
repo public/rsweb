@@ -9,6 +9,7 @@ OPENSSL_VERSION="0.9.8r"
 
 test -d $PREFIX || mkdir -v $PREFIX
 
+git submodule init
 git submodule sync
 git submodule update
 
